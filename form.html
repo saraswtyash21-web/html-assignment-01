@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+ 
+    
+      <h1 align="center">Fill the form..</h1>
+    <form align="center">
+ 
+<form action="/submit-data.php" method="POST">
+    <label for="name:">Name:</label>
+
+        <input type="text" id="name" name="fullName" placeholder="Enter Your Full Name" required><br>
+  
+        <label for="email">Email:</label>
+        <input type="email"id ="email" name="email" placeholder="Enter Your Mail " required><br>
+  
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter Your Password" required><br>
+  
+        <h2>GENDER:</h2>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio"id ="other"name ="gender"value="other"
+        <label for="other">other</label>
+  
+      <h2>select any language :</h2>
+        <input type="checkbox" id ="english" name="language" value="english">
+        <label for="english">English</label>
+        <input type="checkbox" id="hindi" name="language" value="hindi">
+        <label for="hindi">hindi</label>
+        <input type="checkbox" id="japenese" name="language" value="japenese">
+        <label for="japenese">japenese</label><br>
+  
+        <h2>select subject: </h2>
+        <select id="subject" name="subject">
+            <option value="">Default</option>
+            <option value="frontend">Front-End</option>
+            <option value="backend">Back-End</option>
+        </select><br>
+  <br>
+
+  <button>submit</button>
+  <center> 
+        <a href="index.html">Back to Main Page</a>
+
+    </center>
+  </form>
+<br>
+     
+  
+
+</html>
+</body>
